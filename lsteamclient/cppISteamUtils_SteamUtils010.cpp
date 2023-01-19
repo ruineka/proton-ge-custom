@@ -184,7 +184,7 @@ ESteamIPv6ConnectivityState cppISteamUtils_SteamUtils010_GetIPv6ConnectivityStat
 
 bool cppISteamUtils_SteamUtils010_IsSteamRunningOnSteamDeck(void *linux_side)
 {
-    return ((ISteamUtils*)linux_side)->IsSteamRunningOnSteamDeck();
+    return false;
 }
 
 bool cppISteamUtils_SteamUtils010_ShowFloatingGamepadTextInput(void *linux_side, EFloatingGamepadTextInputMode eKeyboardMode, int nTextFieldXPosition, int nTextFieldYPosition, int nTextFieldWidth, int nTextFieldHeight)
